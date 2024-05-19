@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Apresentação</title>
+</head>
+<body>
+  <header class="header">
+    <a href="https://sqliteonline.com" target="_blank" class="logo"><img src="assets/sql-logo.png" alt=""></a>
+    <nav class="navbar">
+      <h2>Mariana Vidal</h2>
+    </nav>
+  </header>
+
+  <h3>Formulário - Apresentação de conhecimentos</h3>
+  <div class="formulario">
+    <input class="textfield" type="text" placeholder="Digite seu texto aqui...">
+    <button class="button" id="btnSalvar">Enviar</button>
+  </div>
+  <div class="tabela">
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Texto</th>
+          <th>Data</th>
+          <th>Deletar</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-dinamica">
+
+      </tbody>
+
+    </table>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
